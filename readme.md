@@ -2,21 +2,22 @@
 A smart contract to create your own ERC20 token and deploy it using HardHat or Remix
 
 ## DESCRIPTION
-Written in Solidity, a programming language used to create smart contracts on the Ethereum blockchain, this program is a straightforward contract. The following are the functions of the contract:
-1. the contract owner can mint tokens to a provided address and 
-2. any user should be able to burn and transfer tokens.
+This software is a simple contract that was written in Solidity, a programming language that is used to generate smart contracts on the Ethereum blockchain. The contract serves the following purposes:
+1. Tokens may be minted by the contract owner and sent to a specified address
+2. 2. Tokens can be burned and transferred by any user.
+
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+You may use the online Solidity IDE Remix to execute this application. Visit the Remix website at https://remix.ethereum.org/ to get started.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the code from contract.sol file into your file:
+Click the "+" symbol in the left-hand sidebar to start a new file once you are on the Remix website. Save the file as HelloWorld.sol or another file with the.sol extension. The contract.sol file's code should be copied and pasted into your file:
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to latest solidity version (or another compatible version), and then click on the "Compile" button.
+Select the "Solidity Compiler" tab from the sidebar on the left to begin compiling the code. Click the "Compile" button after ensuring that the "Compiler" option is set to the most recent solidity version (or another compatible version).
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the your contract from the dropdown menu, and then click on the "Deploy" button.
+Selecting the "Deploy & Run Transactions" tab from the left-hand sidebar will allow you to deploy the contract after the code has been built. Choose your contract from select the "Deploy" button from the dropdown menu.
 
-Once the contract is deployed, you can interact with it by calling the requireInstance, assertInstance and revertInstance function.
+You may communicate with the contract by using the requireInstance, assertInstance, and revertInstance functions once it has been deployed.
 
 ## Authors
 apurva bhau
